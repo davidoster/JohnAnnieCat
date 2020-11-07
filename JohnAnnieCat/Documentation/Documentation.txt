@@ -1,0 +1,41 @@
+﻿John has a house
+John is on the house with the cat Ann
+Inside the house there is a door that leads to the garden
+John opens the door to the garden
+Ann runs to the garden and walks around
+John goes to the door and notices that Ann suddenly stops
+He looks where Ann looks and sees the mouse Jerry
+Ann looks at Jerry, Jerry looks at Ann.
+Jerry squeaks and starts to run
+Ann growls and runs behind it
+
+
+
+Classes
+    House
+        Interior
+            John
+            Ann
+            Door
+        Garden
+            Door
+            Ann
+            Jerry
+    Mammal
+        Human
+            John
+        Animal
+            Cat
+                Ann
+            Mouse
+                Jerry
+    Position [X,Y,Z]
+    Location {Position Current, Position Target}
+    Direction {FRONT, BACK, LEFT, RIGHT}
+    Speed {ZERO, LOW, MEDIUM, NORMAL, HIGH} <----- enum
+        
+
+Interfaces
+    IHumanActions
+    IAnimalActions
+    ? IHouseActions
